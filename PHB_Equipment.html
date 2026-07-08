@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PHB Equipment</title>
+<style>
+:root{
+  --outer-bg:#c0a886; --body-main:#e2dbc8; --body-light:#d8ccb4;
+  --body-mid:#d0bd97; --body-border:#94866d; --sidebar:#cfc08d;
+  --link-color:#936039; --text-color:#000;
+}
+*{box-sizing:border-box}
+body{margin:0;padding:2rem 1rem;background:var(--outer-bg);
+  color:var(--text-color);font-family:Arial,Helvetica,sans-serif;
+  font-size:15px;line-height:1.5}
+main{max-width:1000px;margin:0 auto;padding:1.5rem 2rem;
+  background:var(--body-main);border:1px solid var(--body-border);
+  box-shadow:0 0 7px rgba(0,0,0,0.2)}
+h1,h2,h3,h4,h5,h6{font-family:Georgia,'Times New Roman',serif;font-weight:normal;
+  line-height:1.2}
+h1{font-size:2em;margin:.2em 0 .5em}
+h2{font-size:1.6em;border-bottom:1px solid var(--sidebar);padding-bottom:.2em;
+  margin-top:1.5em}
+h3{font-size:1.3em;margin-top:1.2em}
+h4{font-size:1.1em}
+a{color:var(--link-color);text-decoration:none}
+a:hover{text-decoration:underline}
+hr{border:0;border-top:1px solid var(--body-border);margin:1.5em 0}
+table{border-collapse:collapse;margin:1em 0;width:100%}
+th,td{border:1px solid var(--body-border);padding:.3em .6em;text-align:left}
+th{background:var(--body-mid)}
+td{background:var(--body-light)}
+ul{padding-left:1.4em}
+code{background:var(--body-light);padding:.1em .3em;border-radius:3px;
+  font-family:Consolas,Monaco,monospace;font-size:.92em}
+pre{background:var(--body-light);border:1px solid var(--body-border);
+  padding:.8em 1em;overflow-x:auto}
+pre code{background:none;padding:0}
+
+a.item-link{cursor:pointer}
+a.item-link.open{font-weight:bold}
+tr.item-detail>td{background:var(--body-main);border-top:0;
+  box-shadow:inset 0 3px 5px -3px rgba(0,0,0,.35);padding:.6em 1.2em}
+.item-detail .d-meta{font-style:italic;color:#5a4632;margin:.2em 0 .6em}
+.item-detail p{margin:.5em 0}
+.item-detail .d-sub{margin:.6em 0 .2em}
+.item-detail ul{margin:.4em 0 .4em 0}
+.item-detail table.d-table{width:auto;margin:.6em 0}
+.item-detail table.d-table th,.item-detail table.d-table td{
+  border:1px solid var(--body-border);padding:.2em .5em;background:var(--body-light)}
+.item-detail table.d-table th{background:var(--body-mid)}
+.item-detail blockquote{border-left:3px solid var(--body-border);
+  margin:.5em 0;padding:.2em .8em;background:var(--body-light)}
+.item-detail .d-source{margin-top:.7em;font-size:.9em}
+.hint{font-size:.9em;color:#5a4632;margin:.2em 0 1em}
+
+</style>
+</head>
+<body>
+<main>
+
+<p class="hint">Tip: click any item name to show its full description inline. Click again to hide it.</p>
+<h1 id="phb-equipment">PHB Equipment</h1>
+<p><strong>Index</strong></p>
+<ul><li><a href="#armor">Armor</a></li><li><a href="#weapons">Weapons</a></li><li><a href="#adventuring-gear">Adventuring Gear</a></li><li><a href="#tools">Tools</a></li><li><a href="#mounts-and-other-animals">Mounts &amp; Animals</a></li><li><a href="#tack-harness-and-drawn-vehicles">Tack, Harness &amp; Vehicles</a></li><li><a href="#waterborne-vehicles">Waterborne Vehicles</a></li><li><a href="#trade-goods">Trade Goods</a></li><li><a href="#expenses">Expenses</a></li><li><a href="#food-drink-and-lodging">Food, Drink &amp; Lodging</a></li><li><a href="#services">Services</a></li></ul>
+<hr>
+<h2 id="armor">Armor</h2>
+<h3 id="light-armor">Light Armor</h3>
+<table>
+<thead><tr><th>Armor</th><th>Cost</th><th>Armor Class</th><th>Stealth</th><th>Weight</th></tr></thead>
+<tbody>
+<tr><td><a href="#" class="item-link" data-item="it0">Padded</a></td><td>5 gp</td><td>11 + Dex mod</td><td>Disadvantage</td><td>8 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it1">Leather</a></td><td>10 gp</td><td>11 + Dex mod</td><td>—</td><td>10 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it2">Studded Leather</a></td><td>45 gp</td><td>12 + Dex mod</td><td>—</td><td>13 lb</td></tr>
+</tbody></table>
+<h3 id="medium-armor">Medium Armor</h3>
+<table>
+<thead><tr><th>Armor</th><th>Cost</th><th>Armor Class</th><th>Stealth</th><th>Weight</th></tr></thead>
+<tbody>
+<tr><td><a href="#" class="item-link" data-item="it3">Hide</a></td><td>10 gp</td><td>12 + Dex mod (max 2)</td><td>—</td><td>12 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it4">Chain Shirt</a></td><td>50 gp</td><td>13 + Dex mod (max 2)</td><td>—</td><td>20 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it5">Scale Mail</a></td><td>50 gp</td><td>14 + Dex mod (max 2)</td><td>Disadvantage</td><td>45 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it6">Breastplate</a></td><td>400 gp</td><td>14 + Dex mod (max 2)</td><td>—</td><td>20 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it7">Half Plate</a></td><td>750 gp</td><td>15 + Dex mod (max 2)</td><td>Disadvantage</td><td>40 lb</td></tr>
+</tbody></table>
+<h3 id="heavy-armor">Heavy Armor</h3>
+<table>
+<thead><tr><th>Armor</th><th>Cost</th><th>Armor Class</th><th>Strength</th><th>Stealth</th><th>Weight</th></tr></thead>
+<tbody>
+<tr><td><a href="#" class="item-link" data-item="it8">Ring Mail</a></td><td>30 gp</td><td>14</td><td>—</td><td>Disadvantage</td><td>40 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it9">Chain Mail</a></td><td>75 gp</td><td>16</td><td>Str 13</td><td>Disadvantage</td><td>55 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it10">Splint</a></td><td>200 gp</td><td>17</td><td>Str 15</td><td>Disadvantage</td><td>60 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it11">Plate</a></td><td>1,500 gp</td><td>18</td><td>Str 15</td><td>Disadvantage</td><td>65 lb</td></tr>
+</tbody></table>
+<h3 id="shield">Shield</h3>
+<table>
+<thead><tr><th>Item</th><th>Cost</th><th>Armor Class</th><th>Weight</th></tr></thead>
+<tbody>
+<tr><td><a href="#" class="item-link" data-item="it12">Shield</a></td><td>10 gp</td><td>+2</td><td>6 lb</td></tr>
+</tbody></table>
+<h2 id="weapons">Weapons</h2>
+<h3 id="simple-melee-weapons">Simple Melee Weapons</h3>
+<table>
+<thead><tr><th>Weapon</th><th>Cost</th><th>Damage</th><th>Weight</th><th>Properties</th></tr></thead>
+<tbody>
+<tr><td><a href="#" class="item-link" data-item="it13">Club</a></td><td>1 sp</td><td>1d4 bludgeoning</td><td>2 lb</td><td>Light</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it14">Dagger</a></td><td>2 gp</td><td>1d4 piercing</td><td>1 lb</td><td>Finesse, light, thrown (20/60)</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it15">Greatclub</a></td><td>2 sp</td><td>1d8 bludgeoning</td><td>10 lb</td><td>Two-handed</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it16">Handaxe</a></td><td>5 gp</td><td>1d6 slashing</td><td>2 lb</td><td>Light, thrown (20/60)</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it17">Javelin</a></td><td>5 sp</td><td>1d6 piercing</td><td>2 lb</td><td>Thrown (30/120)</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it18">Light Hammer</a></td><td>2 gp</td><td>1d4 bludgeoning</td><td>2 lb</td><td>Light, thrown (20/60)</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it19">Mace</a></td><td>5 gp</td><td>1d6 bludgeoning</td><td>4 lb</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it20">Quarterstaff</a></td><td>2 sp</td><td>1d6 bludgeoning</td><td>4 lb</td><td>Versatile (1d8)</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it21">Sickle</a></td><td>1 gp</td><td>1d4 slashing</td><td>2 lb</td><td>Light</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it22">Spear</a></td><td>1 gp</td><td>1d6 piercing</td><td>3 lb</td><td>Thrown (20/60), versatile (1d8)</td></tr>
+</tbody></table>
+<h3 id="simple-ranged-weapons">Simple Ranged Weapons</h3>
+<table>
+<thead><tr><th>Weapon</th><th>Cost</th><th>Damage</th><th>Weight</th><th>Properties</th></tr></thead>
+<tbody>
+<tr><td><a href="#" class="item-link" data-item="it23">Crossbow, Light</a></td><td>25 gp</td><td>1d8 piercing</td><td>5 lb</td><td>Ammunition (80/320), loading, two-handed</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it24">Dart</a></td><td>5 cp</td><td>1d4 piercing</td><td>¼ lb</td><td>Finesse, thrown (20/60)</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it25">Shortbow</a></td><td>25 gp</td><td>1d6 piercing</td><td>2 lb</td><td>Ammunition (80/320), two-handed</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it26">Sling</a></td><td>1 sp</td><td>1d4 bludgeoning</td><td>—</td><td>Ammunition (30/120)</td></tr>
+</tbody></table>
+<h3 id="martial-melee-weapons">Martial Melee Weapons</h3>
+<table>
+<thead><tr><th>Weapon</th><th>Cost</th><th>Damage</th><th>Weight</th><th>Properties</th></tr></thead>
+<tbody>
+<tr><td><a href="#" class="item-link" data-item="it27">Battleaxe</a></td><td>10 gp</td><td>1d8 slashing</td><td>4 lb</td><td>Versatile (1d10)</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it28">Flail</a></td><td>10 gp</td><td>1d8 bludgeoning</td><td>2 lb</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it29">Glaive</a></td><td>20 gp</td><td>1d10 slashing</td><td>6 lb</td><td>Heavy, reach, two-handed</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it30">Greataxe</a></td><td>30 gp</td><td>1d12 slashing</td><td>7 lb</td><td>Heavy, two-handed</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it31">Greatsword</a></td><td>50 gp</td><td>2d6 slashing</td><td>6 lb</td><td>Heavy, two-handed</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it32">Halberd</a></td><td>20 gp</td><td>1d10 slashing</td><td>6 lb</td><td>Heavy, reach, two-handed</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it33">Lance</a></td><td>10 gp</td><td>1d12 piercing</td><td>6 lb</td><td>Reach, special</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it34">Longsword</a></td><td>15 gp</td><td>1d8 slashing</td><td>3 lb</td><td>Versatile (1d10)</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it35">Maul</a></td><td>10 gp</td><td>2d6 bludgeoning</td><td>10 lb</td><td>Heavy, two-handed</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it36">Morningstar</a></td><td>15 gp</td><td>1d8 piercing</td><td>4 lb</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it37">Pike</a></td><td>5 gp</td><td>1d10 piercing</td><td>18 lb</td><td>Heavy, reach, two-handed</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it38">Rapier</a></td><td>25 gp</td><td>1d8 piercing</td><td>2 lb</td><td>Finesse</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it39">Scimitar</a></td><td>25 gp</td><td>1d6 slashing</td><td>3 lb</td><td>Finesse, light</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it40">Shortsword</a></td><td>10 gp</td><td>1d6 piercing</td><td>2 lb</td><td>Finesse, light</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it41">Trident</a></td><td>5 gp</td><td>1d6 piercing</td><td>4 lb</td><td>Thrown (20/60), versatile (1d8)</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it42">War Pick</a></td><td>5 gp</td><td>1d8 piercing</td><td>2 lb</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it43">Warhammer</a></td><td>15 gp</td><td>1d8 bludgeoning</td><td>2 lb</td><td>Versatile (1d10)</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it44">Whip</a></td><td>2 gp</td><td>1d4 slashing</td><td>3 lb</td><td>Finesse, reach</td></tr>
+</tbody></table>
+<h3 id="martial-ranged-weapons">Martial Ranged Weapons</h3>
+<table>
+<thead><tr><th>Weapon</th><th>Cost</th><th>Damage</th><th>Weight</th><th>Properties</th></tr></thead>
+<tbody>
+<tr><td><a href="#" class="item-link" data-item="it45">Blowgun</a></td><td>10 gp</td><td>1 piercing</td><td>1 lb</td><td>Ammunition (25/100), loading</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it46">Crossbow, Hand</a></td><td>75 gp</td><td>1d6 piercing</td><td>3 lb</td><td>Ammunition (30/120), light, loading</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it47">Crossbow, Heavy</a></td><td>50 gp</td><td>1d10 piercing</td><td>18 lb</td><td>Ammunition (100/400), heavy, loading, two-handed</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it48">Longbow</a></td><td>50 gp</td><td>1d8 piercing</td><td>2 lb</td><td>Ammunition (150/600), heavy, two-handed</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it49">Net</a></td><td>1 gp</td><td>—</td><td>3 lb</td><td>Special, thrown (5/15)</td></tr>
+</tbody></table>
+<h2 id="adventuring-gear">Adventuring Gear</h2>
+<table>
+<thead><tr><th>Item</th><th>Cost</th><th>Weight</th></tr></thead>
+<tbody>
+<tr><td><a href="#" class="item-link" data-item="it50">Abacus</a></td><td>2 gp</td><td>2 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it51">Acid (vial)</a></td><td>25 gp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it52">Alchemist's Fire (flask)</a></td><td>50 gp</td><td>1 lb</td></tr>
+<tr><td><strong>Ammunition</strong></td><td></td><td></td></tr>
+<tr><td><a href="#" class="item-link" data-item="it53">Arrows (20)</a></td><td>1 gp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it54">Blowgun Needles (50)</a></td><td>1 gp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it55">Crossbow Bolts (20)</a></td><td>1 gp</td><td>1½ lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it56">Sling Bullets (20)</a></td><td>4 cp</td><td>1½ lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it57">Antitoxin (vial)</a></td><td>50 gp</td><td>—</td></tr>
+<tr><td><strong>Arcane Focus</strong></td><td></td><td></td></tr>
+<tr><td><a href="#" class="item-link" data-item="it58">Arcane Focus (Crystal)</a></td><td>10 gp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it59">Arcane Focus (Orb)</a></td><td>20 gp</td><td>3 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it60">Arcane Focus (Rod)</a></td><td>10 gp</td><td>2 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it61">Arcane Focus (Staff)</a></td><td>5 gp</td><td>4 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it62">Arcane Focus (Wand)</a></td><td>10 gp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it63">Backpack</a></td><td>2 gp</td><td>5 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it64">Ball Bearings (bag of 1,000)</a></td><td>1 gp</td><td>2 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it65">Barrel</a></td><td>2 gp</td><td>70 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it66">Basket</a></td><td>4 sp</td><td>2 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it67">Bedroll</a></td><td>1 gp</td><td>7 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it68">Bell</a></td><td>1 gp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it69">Blanket</a></td><td>5 sp</td><td>3 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it70">Block and Tackle</a></td><td>1 gp</td><td>5 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it71">Book</a></td><td>25 gp</td><td>5 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it72">Bottle, Glass</a></td><td>2 gp</td><td>2 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it73">Bucket</a></td><td>5 cp</td><td>2 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it74">Caltrops (bag of 20)</a></td><td>1 gp</td><td>2 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it75">Candle</a></td><td>1 cp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it76">Case, Crossbow Bolt</a></td><td>1 gp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it77">Case, Map or Scroll</a></td><td>1 gp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it78">Chain (10 feet)</a></td><td>5 gp</td><td>10 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it79">Chalk (1 piece)</a></td><td>1 cp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it80">Chest</a></td><td>5 gp</td><td>25 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it81">Climber's Kit</a></td><td>25 gp</td><td>12 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it82">Clothes, Common</a></td><td>5 sp</td><td>3 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it83">Clothes, Costume</a></td><td>5 gp</td><td>4 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it84">Clothes, Fine</a></td><td>15 gp</td><td>6 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it85">Clothes, Traveler's</a></td><td>2 gp</td><td>4 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it86">Component Pouch</a></td><td>25 gp</td><td>2 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it87">Crowbar</a></td><td>2 gp</td><td>5 lb</td></tr>
+<tr><td><strong>Druidic Focus</strong></td><td></td><td></td></tr>
+<tr><td><a href="#" class="item-link" data-item="it88">Druidic Focus (Sprig of Mistletoe)</a></td><td>1 gp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it89">Druidic Focus (Totem)</a></td><td>1 gp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it90">Druidic Focus (Wooden Staff)</a></td><td>5 gp</td><td>4 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it91">Druidic Focus (Yew Wand)</a></td><td>10 gp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it92">Fishing Tackle</a></td><td>1 gp</td><td>4 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it93">Flask or Tankard</a></td><td>2 cp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it94">Grappling Hook</a></td><td>2 gp</td><td>4 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it95">Hammer</a></td><td>1 gp</td><td>3 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it96">Hammer, Sledge</a></td><td>2 gp</td><td>10 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it97">Healer's Kit</a></td><td>5 gp</td><td>3 lb</td></tr>
+<tr><td><strong>Holy Symbol</strong></td><td></td><td></td></tr>
+<tr><td><a href="#" class="item-link" data-item="it98">Holy Symbol (Amulet)</a></td><td>5 gp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it99">Holy Symbol (Emblem)</a></td><td>5 gp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it100">Holy Symbol (Reliquary)</a></td><td>5 gp</td><td>2 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it101">Holy Water (flask)</a></td><td>25 gp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it102">Hourglass</a></td><td>25 gp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it103">Hunting Trap</a></td><td>5 gp</td><td>25 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it104">Ink (1 ounce bottle)</a></td><td>10 gp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it105">Ink Pen</a></td><td>2 cp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it106">Jug or Pitcher</a></td><td>2 cp</td><td>4 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it107">Ladder (10-foot)</a></td><td>1 sp</td><td>25 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it108">Lamp</a></td><td>5 sp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it109">Lantern, Bullseye</a></td><td>10 gp</td><td>2 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it110">Lantern, Hooded</a></td><td>5 gp</td><td>2 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it111">Lock</a></td><td>10 gp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it112">Magnifying Glass</a></td><td>100 gp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it113">Manacles</a></td><td>2 gp</td><td>6 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it114">Mess Kit</a></td><td>2 sp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it115">Mirror, Steel</a></td><td>5 gp</td><td>½ lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it116">Oil (flask)</a></td><td>1 sp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it117">Paper (one sheet)</a></td><td>2 sp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it118">Parchment (one sheet)</a></td><td>1 sp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it119">Perfume (vial)</a></td><td>5 gp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it120">Pick, Miner's</a></td><td>2 gp</td><td>10 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it121">Piton</a></td><td>5 cp</td><td>¼ lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it122">Poison, Basic (vial)</a></td><td>100 gp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it123">Pole (10-foot)</a></td><td>5 cp</td><td>7 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it124">Pot, Iron</a></td><td>2 gp</td><td>10 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it125">Potion of Healing</a></td><td>50 gp</td><td>½ lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it126">Pouch</a></td><td>5 sp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it127">Quiver</a></td><td>1 gp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it128">Ram, Portable</a></td><td>4 gp</td><td>35 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it129">Rations (1 day)</a></td><td>5 sp</td><td>2 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it130">Robes</a></td><td>1 gp</td><td>4 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it131">Rope, Hempen (50 feet)</a></td><td>1 gp</td><td>10 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it132">Rope, Silk (50 feet)</a></td><td>10 gp</td><td>5 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it133">Sack</a></td><td>1 cp</td><td>½ lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it134">Scale, Merchant's</a></td><td>5 gp</td><td>3 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it135">Sealing Wax</a></td><td>5 sp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it136">Shovel</a></td><td>2 gp</td><td>5 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it137">Signal Whistle</a></td><td>5 cp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it138">Signet Ring</a></td><td>5 gp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it139">Soap</a></td><td>2 cp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it140">Spellbook</a></td><td>50 gp</td><td>3 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it141">Spike, Iron (10)</a></td><td>1 gp</td><td>5 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it142">Spyglass</a></td><td>1,000 gp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it143">Tent, Two-Person</a></td><td>2 gp</td><td>20 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it144">Tinderbox</a></td><td>5 sp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it145">Torch</a></td><td>1 cp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it146">Vial</a></td><td>1 gp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it147">Waterskin</a></td><td>2 sp</td><td>5 lb (full)</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it148">Whetstone</a></td><td>1 cp</td><td>1 lb</td></tr>
+</tbody></table>
+<h2 id="tools">Tools</h2>
+<h3 id="artisans-tools">Artisan's Tools</h3>
+<table>
+<thead><tr><th>Tool</th><th>Cost</th><th>Weight</th></tr></thead>
+<tbody>
+<tr><td><a href="#" class="item-link" data-item="it149">Alchemist's Supplies</a></td><td>50 gp</td><td>8 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it150">Brewer's Supplies</a></td><td>20 gp</td><td>9 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it151">Calligrapher's Supplies</a></td><td>10 gp</td><td>5 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it152">Carpenter's Tools</a></td><td>8 gp</td><td>6 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it153">Cartographer's Tools</a></td><td>15 gp</td><td>6 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it154">Cobbler's Tools</a></td><td>5 gp</td><td>5 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it155">Cook's Utensils</a></td><td>1 gp</td><td>8 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it156">Glassblower's Tools</a></td><td>30 gp</td><td>5 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it157">Jeweler's Tools</a></td><td>25 gp</td><td>2 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it158">Leatherworker's Tools</a></td><td>5 gp</td><td>5 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it159">Mason's Tools</a></td><td>10 gp</td><td>8 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it160">Painter's Supplies</a></td><td>10 gp</td><td>5 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it161">Potter's Tools</a></td><td>10 gp</td><td>3 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it162">Smith's Tools</a></td><td>20 gp</td><td>8 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it163">Tinker's Tools</a></td><td>50 gp</td><td>10 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it164">Weaver's Tools</a></td><td>1 gp</td><td>5 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it165">Woodcarver's Tools</a></td><td>1 gp</td><td>5 lb</td></tr>
+</tbody></table>
+<h3 id="other-tools">Other Tools</h3>
+<table>
+<thead><tr><th>Tool</th><th>Cost</th><th>Weight</th></tr></thead>
+<tbody>
+<tr><td><a href="#" class="item-link" data-item="it166">Disguise Kit</a></td><td>25 gp</td><td>3 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it167">Forgery Kit</a></td><td>15 gp</td><td>5 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it168">Navigator's Tools</a></td><td>25 gp</td><td>2 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it169">Poisoner's Kit</a></td><td>50 gp</td><td>2 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it170">Thieves' Tools</a></td><td>25 gp</td><td>1 lb</td></tr>
+</tbody></table>
+<h3 id="gaming-sets">Gaming Sets</h3>
+<table>
+<thead><tr><th>Item</th><th>Cost</th><th>Weight</th></tr></thead>
+<tbody>
+<tr><td><a href="#" class="item-link" data-item="it171">Dice Set</a></td><td>1 sp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it172">Dragonchess Set</a></td><td>1 gp</td><td>½ lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it173">Playing Card Set</a></td><td>5 sp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it174">Three-Dragon Ante Set</a></td><td>1 gp</td><td>—</td></tr>
+</tbody></table>
+<h3 id="musical-instruments">Musical Instruments</h3>
+<table>
+<thead><tr><th>Instrument</th><th>Cost</th><th>Weight</th></tr></thead>
+<tbody>
+<tr><td><a href="#" class="item-link" data-item="it175">Bagpipes</a></td><td>30 gp</td><td>6 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it176">Drum</a></td><td>6 gp</td><td>3 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it177">Dulcimer</a></td><td>25 gp</td><td>10 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it178">Flute</a></td><td>2 gp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it179">Horn</a></td><td>3 gp</td><td>2 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it180">Lute</a></td><td>35 gp</td><td>2 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it181">Lyre</a></td><td>30 gp</td><td>2 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it182">Pan Flute</a></td><td>12 gp</td><td>2 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it183">Shawm</a></td><td>2 gp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it184">Viol</a></td><td>30 gp</td><td>1 lb</td></tr>
+</tbody></table>
+<h2 id="mounts-and-other-animals">Mounts and Other Animals</h2>
+<table>
+<thead><tr><th>Animal</th><th>Cost</th><th>Speed</th><th>Carrying Capacity</th></tr></thead>
+<tbody>
+<tr><td><a href="#" class="item-link" data-item="it185">Camel</a></td><td>50 gp</td><td>50 ft</td><td>480 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it186">Donkey or Mule</a></td><td>8 gp</td><td>40 ft</td><td>420 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it187">Elephant</a></td><td>200 gp</td><td>40 ft</td><td>1,320 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it188">Horse, Draft</a></td><td>50 gp</td><td>40 ft</td><td>540 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it189">Horse, Riding</a></td><td>75 gp</td><td>60 ft</td><td>480 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it190">Mastiff</a></td><td>25 gp</td><td>40 ft</td><td>195 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it191">Pony</a></td><td>30 gp</td><td>40 ft</td><td>225 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it192">Warhorse</a></td><td>400 gp</td><td>60 ft</td><td>540 lb</td></tr>
+</tbody></table>
+<h2 id="tack-harness-and-drawn-vehicles">Tack, Harness, and Drawn Vehicles</h2>
+<table>
+<thead><tr><th>Item</th><th>Cost</th><th>Weight</th></tr></thead>
+<tbody>
+<tr><td><a href="#" class="item-link" data-item="it193">Barding</a></td><td>×4 armor cost</td><td>×2 armor weight</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it194">Bit and Bridle</a></td><td>2 gp</td><td>1 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it195">Carriage</a></td><td>100 gp</td><td>600 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it196">Cart</a></td><td>15 gp</td><td>200 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it197">Feed (per day)</a></td><td>5 cp</td><td>10 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it198">Saddle, Exotic</a></td><td>60 gp</td><td>40 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it199">Saddle, Military</a></td><td>20 gp</td><td>30 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it200">Saddle, Pack</a></td><td>5 gp</td><td>15 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it201">Saddle, Riding</a></td><td>10 gp</td><td>25 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it202">Saddlebags</a></td><td>4 gp</td><td>8 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it203">Sled</a></td><td>20 gp</td><td>300 lb</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it204">Stabling (per day)</a></td><td>5 sp</td><td>—</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it205">Wagon</a></td><td>35 gp</td><td>400 lb</td></tr>
+</tbody></table>
+<h2 id="waterborne-vehicles">Waterborne Vehicles</h2>
+<table>
+<thead><tr><th>Vehicle</th><th>Cost</th><th>Speed</th></tr></thead>
+<tbody>
+<tr><td><a href="#" class="item-link" data-item="it206">Galley</a></td><td>30,000 gp</td><td>4 mph</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it207">Keelboat</a></td><td>3,000 gp</td><td>1 mph</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it208">Longship</a></td><td>10,000 gp</td><td>3 mph</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it209">Rowboat</a></td><td>50 gp</td><td>1½ mph</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it210">Sailing Ship</a></td><td>10,000 gp</td><td>2 mph</td></tr>
+<tr><td><a href="#" class="item-link" data-item="it211">Warship</a></td><td>25,000 gp</td><td>2½ mph</td></tr>
+</tbody></table>
+<h2 id="trade-goods">Trade Goods</h2>
+<table>
+<thead><tr><th>Cost</th><th>Goods</th></tr></thead>
+<tbody>
+<tr><td>1 cp</td><td>1 lb. of wheat</td></tr>
+<tr><td>2 cp</td><td>1 lb. of flour or one chicken</td></tr>
+<tr><td>5 cp</td><td>1 lb. of salt</td></tr>
+<tr><td>1 sp</td><td>1 lb. of iron or 1 sq. yd. of canvas</td></tr>
+<tr><td>5 sp</td><td>1 lb. of copper or 1 sq. yd. of cotton cloth</td></tr>
+<tr><td>1 gp</td><td>1 lb. of ginger or one goat</td></tr>
+<tr><td>2 gp</td><td>1 lb. of cinnamon or pepper, or one sheep</td></tr>
+<tr><td>3 gp</td><td>1 lb. of cloves or one pig</td></tr>
+<tr><td>5 gp</td><td>1 lb. of silver or 1 sq. yd. of linen</td></tr>
+<tr><td>10 gp</td><td>1 sq. yd. of silk or one cow</td></tr>
+<tr><td>15 gp</td><td>1 lb. of saffron or one ox</td></tr>
+<tr><td>50 gp</td><td>1 lb. of gold</td></tr>
+<tr><td>500 gp</td><td>1 lb. of platinum</td></tr>
+</tbody></table>
+<h2 id="expenses">Expenses</h2>
+<h3 id="lifestyle-expenses-per-day">Lifestyle Expenses (per day)</h3>
+<table>
+<thead><tr><th>Lifestyle</th><th>Price/Day</th></tr></thead>
+<tbody>
+<tr><td>Wretched</td><td>—</td></tr>
+<tr><td>Squalid</td><td>1 sp</td></tr>
+<tr><td>Poor</td><td>2 sp</td></tr>
+<tr><td>Modest</td><td>1 gp</td></tr>
+<tr><td>Comfortable</td><td>2 gp</td></tr>
+<tr><td>Wealthy</td><td>4 gp</td></tr>
+<tr><td>Aristocratic</td><td>10 gp minimum</td></tr>
+</tbody></table>
+<h2 id="food-drink-and-lodging">Food, Drink, and Lodging</h2>
+<table>
+<thead><tr><th>Item</th><th>Cost</th></tr></thead>
+<tbody>
+<tr><td>Ale (gallon)</td><td>2 sp</td></tr>
+<tr><td>Ale (mug)</td><td>4 cp</td></tr>
+<tr><td>Banquet (per person)</td><td>10 gp</td></tr>
+<tr><td>Bread, loaf</td><td>2 cp</td></tr>
+<tr><td>Cheese, hunk</td><td>1 sp</td></tr>
+<tr><td>Inn stay/day — Squalid</td><td>7 cp</td></tr>
+<tr><td>Inn stay/day — Poor</td><td>1 sp</td></tr>
+<tr><td>Inn stay/day — Modest</td><td>5 sp</td></tr>
+<tr><td>Inn stay/day — Comfortable</td><td>8 sp</td></tr>
+<tr><td>Inn stay/day — Wealthy</td><td>2 gp</td></tr>
+<tr><td>Inn stay/day — Aristocratic</td><td>4 gp</td></tr>
+<tr><td>Meals/day — Squalid</td><td>3 cp</td></tr>
+<tr><td>Meals/day — Poor</td><td>6 cp</td></tr>
+<tr><td>Meals/day — Modest</td><td>3 sp</td></tr>
+<tr><td>Meals/day — Comfortable</td><td>5 sp</td></tr>
+<tr><td>Meals/day — Wealthy</td><td>8 sp</td></tr>
+<tr><td>Meals/day — Aristocratic</td><td>2 gp</td></tr>
+<tr><td>Meat, chunk</td><td>3 sp</td></tr>
+<tr><td>Wine, common (pitcher)</td><td>2 sp</td></tr>
+<tr><td>Wine, fine (bottle)</td><td>10 gp</td></tr>
+</tbody></table>
+<h2 id="services">Services</h2>
+<table>
+<thead><tr><th>Service</th><th>Cost</th></tr></thead>
+<tbody>
+<tr><td>Coach cab, between towns (per mile)</td><td>3 cp</td></tr>
+<tr><td>Hireling, skilled (per day)</td><td>2 gp</td></tr>
+<tr><td>Hireling, untrained (per day)</td><td>2 sp</td></tr>
+<tr><td>Messenger (per mile)</td><td>2 cp</td></tr>
+<tr><td>Road or gate toll</td><td>1 cp</td></tr>
+<tr><td>Ship's passage (per mile)</td><td>1 sp</td></tr>
+</tbody></table>
+<template id="desc-it0"><div class="d-meta">Light Armor &middot; AC 11 + Dex mod &middot; 8 lb.</div><p>Padded armor consists of quilted layers of cloth and batting.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#padded%20armor_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it1"><div class="d-meta">Light Armor &middot; AC 11 + Dex mod &middot; 10 lb.</div><p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#leather%20armor_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it2"><div class="d-meta">Light Armor &middot; AC 12 + Dex mod &middot; 13 lb.</div><p>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#studded%20leather%20armor_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it3"><div class="d-meta">Medium Armor &middot; AC 12 + Dex mod (max 2) &middot; 12 lb.</div><p>This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#hide%20armor_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it4"><div class="d-meta">Medium Armor &middot; AC 13 + Dex mod (max 2) &middot; 20 lb.</div><p>Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#chain%20shirt_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it5"><div class="d-meta">Medium Armor &middot; AC 14 + Dex mod (max 2) &middot; 45 lb.</div><p>This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#scale%20mail_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it6"><div class="d-meta">Medium Armor &middot; AC 14 + Dex mod (max 2) &middot; 20 lb.</div><p>This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#breastplate_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it7"><div class="d-meta">Medium Armor &middot; AC 15 + Dex mod (max 2) &middot; 40 lb.</div><p>Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#half%20plate%20armor_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it8"><div class="d-meta">Heavy Armor &middot; AC 14 &middot; 40 lb.</div><p>This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can't afford better armor.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#ring%20mail_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it9"><div class="d-meta">Heavy Armor &middot; AC 16 &middot; 55 lb.</div><p>Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#chain%20mail_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it10"><div class="d-meta">Heavy Armor &middot; AC 17 &middot; 60 lb.</div><p>This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#splint%20armor_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it11"><div class="d-meta">Heavy Armor &middot; AC 18 &middot; 65 lb.</div><p>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#plate%20armor_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it12"><div class="d-meta">Shield &middot; AC 2 &middot; 6 lb.</div><p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#shield_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it13"><div class="d-meta">Melee Weapon &middot; 1d4 bludgeoning &middot; light &middot; 2 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#club_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it14"><div class="d-meta">Melee Weapon &middot; 1d4 piercing &middot; finesse, light, thrown &middot; 1 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#dagger_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it15"><div class="d-meta">Melee Weapon &middot; 1d8 bludgeoning &middot; two-handed &middot; 10 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#greatclub_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it16"><div class="d-meta">Melee Weapon &middot; 1d6 slashing &middot; light, thrown &middot; 2 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#handaxe_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it17"><div class="d-meta">Melee Weapon &middot; 1d6 piercing &middot; thrown &middot; 2 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#javelin_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it18"><div class="d-meta">Melee Weapon &middot; 1d4 bludgeoning &middot; light, thrown &middot; 2 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#light%20hammer_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it19"><div class="d-meta">Melee Weapon &middot; 1d6 bludgeoning &middot; 4 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#mace_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it20"><div class="d-meta">Melee Weapon &middot; 1d6 bludgeoning (versatile 1d8) &middot; versatile &middot; 4 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#quarterstaff_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it21"><div class="d-meta">Melee Weapon &middot; 1d4 slashing &middot; light &middot; 2 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#sickle_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it22"><div class="d-meta">Melee Weapon &middot; 1d6 piercing (versatile 1d8) &middot; thrown, versatile &middot; 3 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#spear_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it23"><div class="d-meta">Ranged Weapon &middot; 1d8 piercing &middot; ammunition, loading, two-handed &middot; 5 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#light%20crossbow_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it24"><div class="d-meta">Ranged Weapon &middot; 1d4 piercing &middot; finesse, thrown &middot; 0.25 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#dart_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it25"><div class="d-meta">Ranged Weapon &middot; 1d6 piercing &middot; ammunition, two-handed &middot; 2 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#shortbow_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it26"><div class="d-meta">Ranged Weapon &middot; 1d4 bludgeoning &middot; ammunition</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#sling_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it27"><div class="d-meta">Melee Weapon &middot; 1d8 slashing (versatile 1d10) &middot; versatile &middot; 4 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#battleaxe_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it28"><div class="d-meta">Melee Weapon &middot; 1d8 bludgeoning &middot; 2 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#flail_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it29"><div class="d-meta">Melee Weapon &middot; 1d10 slashing &middot; heavy, reach, two-handed &middot; 6 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#glaive_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it30"><div class="d-meta">Melee Weapon &middot; 1d12 slashing &middot; heavy, two-handed &middot; 7 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#greataxe_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it31"><div class="d-meta">Melee Weapon &middot; 2d6 slashing &middot; heavy, two-handed &middot; 6 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#greatsword_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it32"><div class="d-meta">Melee Weapon &middot; 1d10 slashing &middot; heavy, reach, two-handed &middot; 6 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#halberd_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it33"><div class="d-meta">Melee Weapon &middot; 1d12 piercing &middot; reach, special &middot; 6 lb.</div><p class="d-sub"><strong>Special.</strong></p><p>You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#lance_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it34"><div class="d-meta">Melee Weapon &middot; 1d8 slashing (versatile 1d10) &middot; versatile &middot; 3 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#longsword_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it35"><div class="d-meta">Melee Weapon &middot; 2d6 bludgeoning &middot; heavy, two-handed &middot; 10 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#maul_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it36"><div class="d-meta">Melee Weapon &middot; 1d8 piercing &middot; 4 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#morningstar_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it37"><div class="d-meta">Melee Weapon &middot; 1d10 piercing &middot; heavy, reach, two-handed &middot; 18 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#pike_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it38"><div class="d-meta">Melee Weapon &middot; 1d8 piercing &middot; finesse &middot; 2 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#rapier_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it39"><div class="d-meta">Melee Weapon &middot; 1d6 slashing &middot; finesse, light &middot; 3 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#scimitar_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it40"><div class="d-meta">Melee Weapon &middot; 1d6 piercing &middot; finesse, light &middot; 2 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#shortsword_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it41"><div class="d-meta">Melee Weapon &middot; 1d6 piercing (versatile 1d8) &middot; thrown, versatile &middot; 4 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#trident_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it42"><div class="d-meta">Melee Weapon &middot; 1d8 piercing &middot; 2 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#war%20pick_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it43"><div class="d-meta">Melee Weapon &middot; 1d8 bludgeoning (versatile 1d10) &middot; versatile &middot; 2 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#warhammer_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it44"><div class="d-meta">Melee Weapon &middot; 1d4 slashing &middot; finesse, reach &middot; 3 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#whip_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it45"><div class="d-meta">Ranged Weapon &middot; 1 piercing &middot; ammunition, loading &middot; 1 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#blowgun_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it46"><div class="d-meta">Ranged Weapon &middot; 1d6 piercing &middot; ammunition, light, loading &middot; 3 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#hand%20crossbow_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it47"><div class="d-meta">Ranged Weapon &middot; 1d10 piercing &middot; ammunition, heavy, loading, two-handed &middot; 18 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#heavy%20crossbow_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it48"><div class="d-meta">Ranged Weapon &middot; 1d8 piercing &middot; ammunition, heavy, two-handed &middot; 2 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#longbow_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it49"><div class="d-meta">Ranged Weapon &middot; special, thrown &middot; 3 lb.</div><p class="d-sub"><strong>Special.</strong></p><p>A Large or smaller creature hit by a net is <em>restrained</em> until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#net_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it50"><div class="d-meta">Adventuring Gear &middot; 2 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#abacus_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it51"><div class="d-meta">Adventuring Gear &middot; 1 lb.</div><p>As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#acid%20(vial)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it52"><div class="d-meta">Adventuring Gear &middot; 1 lb.</div><p>This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#alchemist&#x27;s%20fire%20(flask)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it53"><div class="d-meta">1 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#arrows%20(20)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it54"><div class="d-meta">1 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#blowgun%20needles%20(50)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it55"><div class="d-meta">1.5 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#crossbow%20bolts%20(20)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it56"><div class="d-meta">1.5 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#sling%20bullets%20(20)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it57"><div class="d-meta">Adventuring Gear</div><p>A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#antitoxin%20(vial)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it58"><div class="d-meta">1 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#crystal_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it59"><div class="d-meta">3 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#orb_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it60"><div class="d-meta">2 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#rod_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it61"><div class="d-meta">4 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#staff_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it62"><div class="d-meta">1 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#wand_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it63"><div class="d-meta">Adventuring Gear &middot; 5 lb.</div><p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#backpack_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it64"><div class="d-meta">Adventuring Gear &middot; 2 lb.</div><p>As an action, you can spill these tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall <em>prone</em>. A creature moving through the area at half speed doesn't need to make the saving throw.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#ball%20bearings%20(bag%20of%201,000)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it65"><div class="d-meta">Adventuring Gear &middot; 70 lb.</div><p>A barrel can hold 40 gallons of liquid or 4 cubic feet of solids.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#barrel_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it66"><div class="d-meta">Adventuring Gear &middot; 2 lb.</div><p>A basket holds 2 cubic feet or 40 pounds of gear.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#basket_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it67"><div class="d-meta">Adventuring Gear &middot; 7 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#bedroll_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it68"><div class="d-meta">Adventuring Gear</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#bell_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it69"><div class="d-meta">Adventuring Gear &middot; 3 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#blanket_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it70"><div class="d-meta">Adventuring Gear &middot; 5 lb.</div><p>A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#block%20and%20tackle_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it71"><div class="d-meta">Adventuring Gear &middot; 5 lb.</div><p>A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#book_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it72"><div class="d-meta">Adventuring Gear &middot; 2 lb.</div><p>A bottle holds 1½ pints of liquid.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#glass%20bottle_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it73"><div class="d-meta">Adventuring Gear &middot; 2 lb.</div><p>A bucket holds 3 gallons of liquid or ½ cubic foot of solids.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#bucket_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it74"><div class="d-meta">Adventuring Gear &middot; 2 lb.</div><p>As an action, you can spread a single bag of caltrops to cover a 5-foot-square area. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving and take 1 piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn't need to make the saving throw.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#caltrops%20(bag%20of%2020)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it75"><div class="d-meta">Adventuring Gear</div><p>For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#candle_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it76"><div class="d-meta">Adventuring Gear &middot; 1 lb.</div><p>This wooden case can hold up to twenty crossbow bolts.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#crossbow%20bolt%20case_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it77"><div class="d-meta">Adventuring Gear &middot; 1 lb.</div><p>This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#map%20or%20scroll%20case_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it78"><div class="d-meta">Adventuring Gear &middot; 10 lb.</div><p>A chain has 10 hit points. It can be burst with a successful DC 20 Strength check.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#chain%20(10%20feet)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it79"><div class="d-meta">Adventuring Gear</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#chalk%20(1%20piece)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it80"><div class="d-meta">Adventuring Gear &middot; 25 lb.</div><p>A chest holds 12 cubic feet or 300 pounds of gear.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#chest_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it81"><div class="d-meta">Adventuring Gear &middot; 12 lb.</div><p>A climber's kit includes special pitons, boot tips, gloves, and a harness. You can use the climber's kit as an action to anchor yourself; when you do, you can't fall more than 25 feet from the point where you anchored yourself, and you can't climb more than 25 feet away from that point without undoing the anchor.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#climber&#x27;s%20kit_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it82"><div class="d-meta">Adventuring Gear &middot; 3 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#common%20clothes_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it83"><div class="d-meta">Adventuring Gear &middot; 4 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#costume%20clothes_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it84"><div class="d-meta">Adventuring Gear &middot; 6 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#fine%20clothes_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it85"><div class="d-meta">Adventuring Gear &middot; 4 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#traveler&#x27;s%20clothes_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it86"><div class="d-meta">Adventuring Gear &middot; 2 lb.</div><p>A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description).</p><div class="d-source"><a href="https://2014.5e.tools/items.html#component%20pouch_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it87"><div class="d-meta">Adventuring Gear &middot; 5 lb.</div><p>Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#crowbar_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it88"><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#sprig%20of%20mistletoe_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it89"><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#totem_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it90"><div class="d-meta">4 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#wooden%20staff_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it91"><div class="d-meta">1 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#yew%20wand_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it92"><div class="d-meta">Adventuring Gear &middot; 4 lb.</div><p>This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#fishing%20tackle_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it93"><div class="d-meta">Adventuring Gear &middot; 1 lb.</div><p>A flask holds 1 pint of liquid.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#flask_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it94"><div class="d-meta">Adventuring Gear &middot; 4 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#grappling%20hook_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it95"><div class="d-meta">Adventuring Gear &middot; 3 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#hammer_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it96"><div class="d-meta">Adventuring Gear &middot; 10 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#sledgehammer_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it97"><div class="d-meta">Adventuring Gear &middot; 3 lb.</div><p>This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (<em>Medicine</em>) check.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#healer&#x27;s%20kit_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it98"><div class="d-meta">1 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#amulet_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it99"><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#emblem_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it100"><div class="d-meta">2 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#reliquary_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it101"><div class="d-meta">Adventuring Gear &middot; 1 lb.</div><p>As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage.</p>
+<p>A cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#holy%20water%20(flask)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it102"><div class="d-meta">Adventuring Gear &middot; 1 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#hourglass_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it103"><div class="d-meta">Adventuring Gear &middot; 25 lb.</div><p>When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#hunting%20trap_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it104"><div class="d-meta">Adventuring Gear</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#ink%20(1-ounce%20bottle)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it105"><div class="d-meta">Adventuring Gear</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#ink%20pen_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it106"><div class="d-meta">Adventuring Gear &middot; 4 lb.</div><p>A jug holds 1 gallon of liquid.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#jug_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it107"><div class="d-meta">Adventuring Gear &middot; 25 lb.</div><p>Ladder (10-foot)</p><div class="d-source"><a href="https://2014.5e.tools/items.html#ladder%20(10-foot)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it108"><div class="d-meta">Adventuring Gear &middot; 1 lb.</div><p>A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#lamp_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it109"><div class="d-meta">Adventuring Gear &middot; 2 lb.</div><p>A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#bullseye%20lantern_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it110"><div class="d-meta">Adventuring Gear &middot; 2 lb.</div><p>A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#hooded%20lantern_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it111"><div class="d-meta">Adventuring Gear &middot; 1 lb.</div><p>A key is provided with the lock. Without the key, a creature proficient with thieves' tools can pick this lock with a successful DC 15 Dexterity check. Your DM may decide that better locks are available for higher prices.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#lock_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it112"><div class="d-meta">Adventuring Gear</div><p>This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#magnifying%20glass_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it113"><div class="d-meta">Adventuring Gear &middot; 6 lb.</div><p>These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of manacles comes with one key. Without the key, a creature proficient with thieves' tools can pick the manacles' lock with a successful DC 15 Dexterity check. Manacles have 15 hit points.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#manacles_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it114"><div class="d-meta">Adventuring Gear &middot; 1 lb.</div><p>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#mess%20kit_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it115"><div class="d-meta">Adventuring Gear &middot; 0.5 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#steel%20mirror_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it116"><div class="d-meta">Adventuring Gear &middot; 1 lb.</div><p>Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level. If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#oil%20(flask)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it117"><div class="d-meta">Adventuring Gear</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#paper%20(one%20sheet)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it118"><div class="d-meta">Adventuring Gear</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#parchment%20(one%20sheet)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it119"><div class="d-meta">Adventuring Gear</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#perfume%20(vial)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it120"><div class="d-meta">Adventuring Gear &middot; 10 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#miner&#x27;s%20pick_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it121"><div class="d-meta">Adventuring Gear &middot; 0.25 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#piton_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it122"><div class="d-meta">Adventuring Gear</div><p>You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#basic%20poison%20(vial)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it123"><div class="d-meta">Adventuring Gear &middot; 7 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#pole%20(10-foot)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it124"><div class="d-meta">Adventuring Gear &middot; 10 lb.</div><p>An iron pot holds 1 gallon of liquid.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#iron%20pot_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it125"><div class="d-meta">Potion, common &middot; 0.5 lb.</div><p>You regain 2d4 + 2 hit points when you drink this potion. The potion's red liquid glimmers when agitated.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#potion%20of%20healing_dmg" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it126"><div class="d-meta">Adventuring Gear &middot; 1 lb.</div><p>A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch. A pouch can hold up to ⅕ cubic foot or 6 pounds of gear.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#pouch_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it127"><div class="d-meta">Adventuring Gear &middot; 1 lb.</div><p>A quiver can hold up to 20 arrows.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#quiver_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it128"><div class="d-meta">Adventuring Gear &middot; 35 lb.</div><p>You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#portable%20ram_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it129"><div class="d-meta">Adventuring Gear &middot; 2 lb.</div><p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#rations%20(1%20day)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it130"><div class="d-meta">Adventuring Gear &middot; 4 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#robes_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it131"><div class="d-meta">Adventuring Gear &middot; 10 lb.</div><p>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#hempen%20rope%20(50%20feet)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it132"><div class="d-meta">Adventuring Gear &middot; 5 lb.</div><p>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#silk%20rope%20(50%20feet)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it133"><div class="d-meta">Adventuring Gear &middot; 0.5 lb.</div><p>A sack can hold up to 1 cubic foot or 30 pounds of gear.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#sack_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it134"><div class="d-meta">Adventuring Gear &middot; 3 lb.</div><p>A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#merchant&#x27;s%20scale_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it135"><div class="d-meta">Adventuring Gear</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#sealing%20wax_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it136"><div class="d-meta">Adventuring Gear &middot; 5 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#shovel_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it137"><div class="d-meta">Adventuring Gear</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#signal%20whistle_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it138"><div class="d-meta">Adventuring Gear</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#signet%20ring_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it139"><div class="d-meta">Adventuring Gear</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#soap_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it140"><div class="d-meta">Adventuring Gear &middot; 3 lb.</div><p>Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#spellbook_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it141"><div class="d-meta">Adventuring Gear &middot; 5 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#iron%20spikes%20(10)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it142"><div class="d-meta">Adventuring Gear &middot; 1 lb.</div><p>Objects viewed through a spyglass are magnified to twice their size.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#spyglass_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it143"><div class="d-meta">Adventuring Gear &middot; 20 lb.</div><p>A simple and portable canvas shelter, a tent sleeps two.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#two-person%20tent_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it144"><div class="d-meta">Adventuring Gear &middot; 1 lb.</div><p>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch—or anything else with abundant, exposed fuel—takes an action. Lighting any other fire takes 1 minute.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#tinderbox_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it145"><div class="d-meta">Adventuring Gear &middot; 1 lb.</div><p>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#torch_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it146"><div class="d-meta">Adventuring Gear</div><p>A vial can hold up to 4 ounces of liquid.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#vial_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it147"><div class="d-meta">Adventuring Gear &middot; 5 lb.</div><p>A waterskin can hold up to 4 pints of liquid.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#waterskin_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it148"><div class="d-meta">Adventuring Gear &middot; 1 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#whetstone_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it149"><div class="d-meta">Artisan's Tools &middot; 8 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#alchemist&#x27;s%20supplies_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it150"><div class="d-meta">Artisan's Tools &middot; 9 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#brewer&#x27;s%20supplies_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it151"><div class="d-meta">Artisan's Tools &middot; 5 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#calligrapher&#x27;s%20supplies_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it152"><div class="d-meta">Artisan's Tools &middot; 6 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#carpenter&#x27;s%20tools_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it153"><div class="d-meta">Artisan's Tools &middot; 6 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#cartographer&#x27;s%20tools_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it154"><div class="d-meta">Artisan's Tools &middot; 5 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#cobbler&#x27;s%20tools_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it155"><div class="d-meta">Artisan's Tools &middot; 8 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#cook&#x27;s%20utensils_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it156"><div class="d-meta">Artisan's Tools &middot; 5 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#glassblower&#x27;s%20tools_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it157"><div class="d-meta">Artisan's Tools &middot; 2 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#jeweler&#x27;s%20tools_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it158"><div class="d-meta">Artisan's Tools &middot; 5 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#leatherworker&#x27;s%20tools_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it159"><div class="d-meta">Artisan's Tools &middot; 8 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#mason&#x27;s%20tools_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it160"><div class="d-meta">Artisan's Tools &middot; 5 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#painter&#x27;s%20supplies_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it161"><div class="d-meta">Artisan's Tools &middot; 3 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#potter&#x27;s%20tools_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it162"><div class="d-meta">Artisan's Tools &middot; 8 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#smith&#x27;s%20tools_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it163"><div class="d-meta">Artisan's Tools &middot; 10 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#tinker&#x27;s%20tools_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it164"><div class="d-meta">Artisan's Tools &middot; 5 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#weaver&#x27;s%20tools_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it165"><div class="d-meta">Artisan's Tools &middot; 5 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#woodcarver&#x27;s%20tools_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it166"><div class="d-meta">Tools &middot; 3 lb.</div><p>This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#disguise%20kit_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it167"><div class="d-meta">Tools &middot; 5 lb.</div><p>This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#forgery%20kit_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it168"><div class="d-meta">Tools &middot; 2 lb.</div><p>This set of instruments is used for navigation at sea. Proficiency with navigator's tools lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#navigator&#x27;s%20tools_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it169"><div class="d-meta">Tools &middot; 2 lb.</div><p>A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.</p>
+<p>Additionally, the 8 rules require the use of a poisoner's kit.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#poisoner&#x27;s%20kit_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it170"><div class="d-meta">Tools &middot; 1 lb.</div><p>This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#thieves&#x27;%20tools_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it171"><div class="d-meta">Gaming Set</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#dice%20set_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it172"><div class="d-meta">Gaming Set &middot; 0.5 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#dragonchess%20set_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it173"><div class="d-meta">Gaming Set</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#playing%20card%20set_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it174"><div class="d-meta">Gaming Set</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#three-dragon%20ante%20set_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it175"><div class="d-meta">Musical Instrument &middot; 6 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#bagpipes_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it176"><div class="d-meta">Musical Instrument &middot; 3 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#drum_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it177"><div class="d-meta">Musical Instrument &middot; 10 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#dulcimer_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it178"><div class="d-meta">Musical Instrument &middot; 1 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#flute_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it179"><div class="d-meta">Musical Instrument &middot; 2 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#horn_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it180"><div class="d-meta">Musical Instrument &middot; 2 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#lute_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it181"><div class="d-meta">Musical Instrument &middot; 2 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#lyre_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it182"><div class="d-meta">Musical Instrument &middot; 2 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#pan%20flute_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it183"><div class="d-meta">Musical Instrument &middot; 1 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#shawm_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it184"><div class="d-meta">Musical Instrument &middot; 1 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#viol_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it185"><div class="d-meta">Mount</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#camel_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it186"><div class="d-meta">Mount</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#donkey_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it187"><div class="d-meta">Mount</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#elephant_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it188"><div class="d-meta">Mount</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#draft%20horse_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it189"><div class="d-meta">Mount</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#riding%20horse_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it190"><div class="d-meta">Mount</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#mastiff_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it191"><div class="d-meta">Mount</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#pony_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it192"><div class="d-meta">Mount</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#warhorse_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it193"><div class="d-meta">Armor (any)</div><p>Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table in this chapter can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#barding_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it194"><div class="d-meta">Tack and Harness &middot; 1 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#bit%20and%20bridle_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it195"><div class="d-meta">Vehicle &middot; 600 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#carriage_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it196"><div class="d-meta">Vehicle &middot; 200 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#cart_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it197"><div class="d-meta">Tack and Harness &middot; 10 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#feed%20(per%20day)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it198"><div class="d-meta">Tack and Harness &middot; 40 lb.</div><p>An exotic saddle is required for riding any aquatic or flying mount.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#exotic%20saddle_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it199"><div class="d-meta">Tack and Harness &middot; 30 lb.</div><p>A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#military%20saddle_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it200"><div class="d-meta">Tack and Harness &middot; 15 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#pack%20saddle_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it201"><div class="d-meta">Tack and Harness &middot; 25 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#riding%20saddle_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it202"><div class="d-meta">Tack and Harness &middot; 8 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#saddlebags_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it203"><div class="d-meta">Vehicle &middot; 300 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#sled_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it204"><div class="d-meta">Tack and Harness</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#stabling%20(per%20day)_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it205"><div class="d-meta">Vehicle &middot; 400 lb.</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#wagon_phb" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it206"><div class="d-meta">Waterborne Vehicle</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#galley_dmg" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it207"><div class="d-meta">Waterborne Vehicle</div><p>Keelboats and rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#keelboat_dmg" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it208"><div class="d-meta">Waterborne Vehicle</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#longship_dmg" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it209"><div class="d-meta">Waterborne Vehicle &middot; 100 lb.</div><p>Keelboats and rowboats are used on lakes and rivers, If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A rowboat weighs 100 pounds, in case adventurers carry it over land.</p><div class="d-source"><a href="https://2014.5e.tools/items.html#rowboat_dmg" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it210"><div class="d-meta">Waterborne Vehicle</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#sailing%20ship_dmg" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+<template id="desc-it211"><div class="d-meta">Waterborne Vehicle</div><p><em>No description available.</em></p><div class="d-source"><a href="https://2014.5e.tools/items.html#warship_dmg" target="_blank" rel="noopener">View on 5e.tools &raquo;</a></div></template>
+</main>
+<script>
+
+document.addEventListener('click', function(ev){
+  var a = ev.target.closest('a.item-link');
+  if(!a) return;
+  ev.preventDefault();
+  var slug = a.getAttribute('data-item');
+  var row = a.closest('tr');
+  if(row){
+    var next = row.nextElementSibling;
+    if(next && next.classList.contains('item-detail') && next.getAttribute('data-owner')===slugKey(a)){
+      next.remove(); a.classList.remove('open'); return;
+    }
+    if(next && next.classList.contains('item-detail')){ // different item open here
+      next.remove();
+    }
+    var tpl = document.getElementById('desc-'+slug);
+    if(!tpl) return;
+    var tr = document.createElement('tr');
+    tr.className = 'item-detail';
+    tr.setAttribute('data-owner', slugKey(a));
+    var td = document.createElement('td');
+    td.colSpan = row.cells.length;
+    td.appendChild(tpl.content.cloneNode(true));
+    tr.appendChild(td);
+    row.parentNode.insertBefore(tr, row.nextSibling);
+    a.classList.add('open');
+  } else {
+    var tpl = document.getElementById('desc-'+slug);
+    if(!tpl) return;
+    var sib = a.nextElementSibling;
+    if(sib && sib.classList.contains('item-detail')){ sib.remove(); a.classList.remove('open'); return; }
+    var div = document.createElement('div');
+    div.className = 'item-detail';
+    div.appendChild(tpl.content.cloneNode(true));
+    a.parentNode.insertBefore(div, a.nextSibling);
+    a.classList.add('open');
+  }
+});
+function slugKey(a){
+  // unique per-anchor so re-clicking the same link closes it
+  if(!a._k){ a._k = 'k'+(slugKey._n=(slugKey._n||0)+1); }
+  return a._k;
+}
+
+</script>
+<style id="cart-style">
+th.qty-col,td.qty-col{width:1%;white-space:nowrap;text-align:center}
+input.qty-input{width:3.4em;padding:.15em .3em;font-size:.95em;text-align:center;
+  border:1px solid var(--body-border);background:#fff;border-radius:3px}
+input.qty-input:focus{outline:2px solid var(--link-color);outline-offset:0}
+tr.has-qty>td{background:#efe6cf}
+#cart{position:fixed;right:1rem;bottom:1rem;width:340px;max-width:calc(100vw - 2rem);
+  max-height:75vh;display:flex;flex-direction:column;z-index:1000;
+  background:var(--body-main);border:1px solid var(--body-border);
+  box-shadow:0 3px 14px rgba(0,0,0,.35);border-radius:5px;
+  font-family:Arial,Helvetica,sans-serif;font-size:14px}
+#cart-head{display:flex;align-items:center;justify-content:space-between;
+  padding:.5em .8em;background:var(--body-mid);border-bottom:1px solid var(--body-border);
+  cursor:pointer;border-radius:5px 5px 0 0}
+#cart-head h3{margin:0;font-size:1.05em;font-family:Georgia,serif}
+#cart-head .toggle{font-size:1.1em;color:var(--link-color)}
+#cart-body{padding:.6em .8em;overflow-y:auto}
+#cart.collapsed #cart-body{display:none}
+#cart.collapsed #cart-head{border-bottom:0;border-radius:5px}
+#cart-lines{list-style:none;margin:.2em 0 .6em;padding:0}
+#cart-lines li{display:flex;justify-content:space-between;gap:.6em;
+  padding:.2em 0;border-bottom:1px dashed var(--body-border)}
+#cart-lines li .ci-name{flex:1}
+#cart-lines li .ci-sub{white-space:nowrap;color:#5a4632}
+#cart-empty{color:#5a4632;font-style:italic;margin:.3em 0}
+#cart-total{font-weight:bold;font-size:1.05em;margin:.4em 0;
+  padding-top:.4em;border-top:2px solid var(--body-border);
+  display:flex;justify-content:space-between}
+#cart-rarity{margin:.3em 0 .5em;color:#5a4632}
+#cart-rarity .rtag{display:inline-block;margin:.1em .3em .1em 0;padding:.05em .45em;
+  border:1px solid var(--body-border);border-radius:3px;background:var(--body-light);
+  font-size:.9em}
+#cart-clear{margin-top:.2em;padding:.3em .8em;cursor:pointer;
+  background:var(--body-light);border:1px solid var(--body-border);border-radius:3px;
+  color:var(--text-color);font-size:.95em}
+#cart-clear:hover{background:var(--body-mid)}
+#cart-count{background:var(--link-color);color:#fff;border-radius:10px;
+  padding:.05em .5em;font-size:.85em;margin-left:.4em}
+@media(max-width:600px){#cart{right:0;left:0;bottom:0;width:auto;max-width:none;
+  border-radius:0;border-left:0;border-right:0}}
+</style>
+<div id="cart" class="collapsed">
+  <div id="cart-head">
+    <h3>&#128722; Shopping Cart<span id="cart-count">0</span></h3>
+    <span class="toggle">&#9650;</span>
+  </div>
+  <div id="cart-body">
+    <ul id="cart-lines"></ul>
+    <div id="cart-empty">Cart is empty &mdash; enter a quantity next to any item.</div>
+    <div id="cart-rarity"></div>
+    <div id="cart-total"><span>Total</span><span id="cart-total-val">0 gp</span></div>
+    <button id="cart-clear" type="button">Clear cart</button>
+  </div>
+</div>
+<script>
+(function(){
+  var UNIT={cp:1,sp:10,ep:50,gp:100,pp:1000};
+  var RARITY_ORDER=['Common','Uncommon','Rare','Very Rare','Legendary','Artifact'];
+  function parseCost(txt){
+    if(txt==null) return null;
+    var t=txt.replace(/,/g,'').trim();
+    if(!t||t==='—'||t==='-') return null;
+    var m=t.match(/(\d+(?:\.\d+)?)\s*(pp|gp|ep|sp|cp)?/i);
+    if(!m) return null;
+    var unit=(m[2]||'gp').toLowerCase();
+    return Math.round(parseFloat(m[1])*UNIT[unit]);
+  }
+  function fmtCost(cp){
+    if(!cp) return '0 gp';
+    var gp=Math.floor(cp/100),r=cp%100,sp=Math.floor(r/10),c=r%10,parts=[];
+    if(gp) parts.push(gp.toLocaleString()+' gp');
+    if(sp) parts.push(sp+' sp');
+    if(c) parts.push(c+' cp');
+    return parts.join(' ')||'0 gp';
+  }
+  var entries=[];
+  document.querySelectorAll('table').forEach(function(table){
+    var head=table.tHead&&table.tHead.rows[0];
+    if(!head) return;
+    var hdr=Array.prototype.map.call(head.cells,function(c){return c.textContent.trim();});
+    // remove "DMG Pg" column entirely, if present
+    var dmg=hdr.findIndex(function(h){return /^DMG\s*Pg$/i.test(h);});
+    if(dmg>=0){
+      head.deleteCell(dmg);
+      Array.prototype.forEach.call(table.tBodies,function(tb){
+        Array.prototype.forEach.call(tb.rows,function(r){ if(r.cells[dmg]) r.deleteCell(dmg); });
+      });
+      hdr=Array.prototype.map.call(head.cells,function(c){return c.textContent.trim();});
+    }
+    var priceCol=hdr.findIndex(function(h){return /cost|price/i.test(h);});
+    if(priceCol<0) return; // not a shop table
+    var rarityCol=hdr.findIndex(function(h){return /^rarity$/i.test(h);});
+    // prepend Qty header
+    var th=document.createElement('th'); th.className='qty-col'; th.textContent='Qty';
+    head.insertBefore(th,head.cells[0]);
+    Array.prototype.forEach.call(table.tBodies,function(tb){
+      Array.prototype.forEach.call(tb.rows,function(r){
+        var cp=r.cells[priceCol]?parseCost(r.cells[priceCol].textContent):null;
+        var name='';
+        for(var i=0;i<r.cells.length;i++){
+          if(i===priceCol) continue;
+          var t=r.cells[i].textContent.trim();
+          if(t){name=t;break;}
+        }
+        var rarity=(rarityCol>=0&&r.cells[rarityCol])?r.cells[rarityCol].textContent.trim():'';
+        var td=document.createElement('td'); td.className='qty-col';
+        if(cp!==null){
+          var inp=document.createElement('input');
+          inp.type='number'; inp.min='0'; inp.step='1'; inp.placeholder='0';
+          inp.className='qty-input';
+          td.appendChild(inp);
+          var e={inp:inp,name:name,cp:cp,rarity:rarity,row:r};
+          entries.push(e);
+          inp.addEventListener('input',update);
+        }
+        r.insertBefore(td,r.cells[0]);
+      });
+    });
+  });
+
+  var linesEl=document.getElementById('cart-lines'),
+      emptyEl=document.getElementById('cart-empty'),
+      rarityEl=document.getElementById('cart-rarity'),
+      totalEl=document.getElementById('cart-total-val'),
+      countEl=document.getElementById('cart-count');
+
+  function update(){
+    linesEl.innerHTML=''; var total=0,count=0,rar={};
+    entries.forEach(function(e){
+      var q=parseInt(e.inp.value,10); if(!q||q<0){e.row.classList.remove('has-qty');return;}
+      e.row.classList.add('has-qty');
+      total+=e.cp*q; count+=q;
+      if(e.rarity){rar[e.rarity]=(rar[e.rarity]||0)+q;}
+      var li=document.createElement('li');
+      var n=document.createElement('span'); n.className='ci-name'; n.textContent=q+'× '+e.name;
+      var s=document.createElement('span'); s.className='ci-sub'; s.textContent=fmtCost(e.cp*q);
+      li.appendChild(n); li.appendChild(s); linesEl.appendChild(li);
+    });
+    emptyEl.style.display=count?'none':'block';
+    totalEl.textContent=fmtCost(total);
+    countEl.textContent=count;
+    // rarity tally (only shown if any rarities exist on page)
+    var keys=Object.keys(rar);
+    if(keys.length){
+      keys.sort(function(a,b){
+        var ia=RARITY_ORDER.indexOf(a),ib=RARITY_ORDER.indexOf(b);
+        if(ia<0)ia=99; if(ib<0)ib=99; return ia-ib||a.localeCompare(b);
+      });
+      rarityEl.innerHTML='';
+      keys.forEach(function(k){
+        var t=document.createElement('span'); t.className='rtag';
+        t.textContent=rar[k]+' '+k; rarityEl.appendChild(t);
+      });
+    } else { rarityEl.innerHTML=''; }
+  }
+
+  document.getElementById('cart-head').addEventListener('click',function(){
+    document.getElementById('cart').classList.toggle('collapsed');
+    var t=this.querySelector('.toggle');
+    t.innerHTML=document.getElementById('cart').classList.contains('collapsed')?'▲':'▼';
+  });
+  document.getElementById('cart-clear').addEventListener('click',function(){
+    entries.forEach(function(e){e.inp.value='';});
+    update();
+  });
+  update();
+})();
+</script>
+</body>
+</html>
+
