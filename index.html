@@ -9,8 +9,12 @@
   main { max-width:640px; margin:0 auto; padding:3rem 1.5rem; }
   h1 { font-size:1.5rem; margin:0 0 .5rem; }
   p { color:#8b97a3; }
+  ul { list-style:none; padding:0; margin:1.5rem 0 0; }
+  li { border-top:1px solid #1a2027; }
+  li a { display:flex; justify-content:space-between; align-items:baseline; gap:1rem; padding:.75rem .25rem; text-decoration:none; color:#4da3ff; }
+  li a:hover { background:#141a21; }
+  li .size { color:#5c6773; font-size:.85em; white-space:nowrap; }
   code { background:#1a2027; padding:.15rem .4rem; border-radius:4px; font-size:.9em; color:#c9d1d9; }
-  a { color:#4da3ff; }
 </style>
 </head>
 <body>
@@ -18,7 +22,10 @@
   <h1>publicPages</h1>
   <p>Static file share published via GitHub Pages. Files are dropped into
      <code>live/www/public/pages/</code> on surfaceserver and pushed here automatically.</p>
-  <p>Link directly to a file by name, e.g. <code>./somefile.pdf</code>.</p>
+  <ul>
+    <li><a href="./PHB_Equipment.html"><span>PHB Equipment</span><span class="size">116K</span></a></li>
+    <li><a href="./Sane_Magical_Prices.html"><span>Sane Magical Item Prices</span><span class="size">208K</span></a></li>
+  </ul>
 </main>
 </body>
 </html>
